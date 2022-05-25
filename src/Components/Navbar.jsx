@@ -38,7 +38,7 @@ function Navbar() {
                                 </svg></span>
                             <h2 className="brand-text">Vuexy</h2>
                         </a></li>
-                    <li className="nav-item nav-toggle"><a className="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i className="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i className="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc" data-ticon="disc"></i></a></li>
+                    <li className="nav-item nav-toggle"><a href="/" className="nav-link modern-nav-toggle pe-0" data-bs-toggle="collapse"><i className="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i className="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary" data-feather="disc" data-ticon="disc"></i></a></li>
                 </ul>
             </div>
             <div className="shadow-bottom"></div>
@@ -48,13 +48,17 @@ function Navbar() {
                         <ul className="menu-content">
                             <li><a className="d-flex align-items-center" href="dashboard-analytics.html"><i data-feather="circle"></i><span className="menu-item text-truncate" data-i18n="Analytics">Analytics</span></a>
                             </li>
-                            <li className="active"><a className="d-flex align-items-center" href="dashboard-ecommerce.html"><i data-feather="circle"></i><span className="menu-item text-truncate" data-i18n="eCommerce">eCommerce</span></a>
+                            <li className=""><a className="d-flex align-items-center" href="dashboard-ecommerce.html"><i data-feather="circle"></i><span className="menu-item text-truncate" data-i18n="eCommerce">eCommerce</span></a>
                             </li>
                         </ul>
                     </li>
                     <li className=" navigation-header"><span data-i18n="Apps &amp; Pages">Apps &amp; Pages</span><i data-feather="more-horizontal"></i>
                     </li>
-                    <li className=" nav-item"><a className="d-flex align-items-center" href="app-email.html"><i data-feather="mail"></i><span className="menu-title text-truncate" data-i18n="Email">Email</span></a>
+                    <li className="nav-item">
+                        <a className="d-flex align-items-center" href="/">
+                            <i data-feather="mail"></i>
+                            <span className="menu-title text-truncate" data-i18n="Email">Email</span>
+                        </a>
                     </li>
                     <li className=" nav-item"><a className="d-flex align-items-center" href="app-chat.html"><i data-feather="message-square"></i><span className="menu-title text-truncate" data-i18n="Chat">Chat</span></a>
                     </li>

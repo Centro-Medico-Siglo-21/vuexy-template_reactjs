@@ -1,11 +1,6 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar';
-import Header from '../../Components/Header';
-
-// styles in line
-const pathStyle = {
-    fill: 'currentColor',
-};
+import Navbar from '../Components/Navbar';
+import Header from '../Components/Header';
 
 function Home() {
     return (
@@ -14,8 +9,6 @@ function Home() {
                 {/* BEGIN: Header */}
                     <Header />
                 {/* END: Header */}
-
-            <div className="vertical-layout vertical-menu  navbar-floating footer-static  " data-open="hover" data-menu="vertical-menu" data-col="">
 
                 {/* BEGIN: Main Menu */}
                     <Navbar />
@@ -42,7 +35,7 @@ function Home() {
                                                     <a href="/">$48.9k</a>
                                                 </h3>
                                                 <button type="button" className="btn btn-primary">View Sales</button>
-                                                <img src="../../../app-assets/images/illustration/badge.svg" className="congratulation-medal" alt="Medal Pic" />
+                                                <img src="/styles/app-assets/images/illustration/badge.svg" className="congratulation-medal" alt="Medal Pic" />
                                             </div>
                                         </div>
                                     </div>
@@ -236,7 +229,7 @@ function Home() {
                                                                     <div className="d-flex align-items-center">
                                                                         <div className="avatar rounded">
                                                                             <div className="avatar-content">
-                                                                                <img src="../../../app-assets/images/icons/toolbox.svg" alt="Toolbar svg" />
+                                                                                <img src="/styles/app-assets/images/icons/toolbox.svg" alt="Toolbar svg" />
                                                                             </div>
                                                                         </div>
                                                                         <div>
@@ -274,7 +267,7 @@ function Home() {
                                                                     <div className="d-flex align-items-center">
                                                                         <div className="avatar rounded">
                                                                             <div className="avatar-content">
-                                                                                <img src="../../../app-assets/images/icons/parachute.svg" alt="Parachute svg" />
+                                                                                <img src="/styles/app-assets/images/icons/parachute.svg" alt="Parachute svg" />
                                                                             </div>
                                                                         </div>
                                                                         <div>
@@ -312,7 +305,7 @@ function Home() {
                                                                     <div className="d-flex align-items-center">
                                                                         <div className="avatar rounded">
                                                                             <div className="avatar-content">
-                                                                                <img src="../../../app-assets/images/icons/brush.svg" alt="Brush svg" />
+                                                                                <img src="/styles/app-assets/images/icons/brush.svg" alt="Brush svg" />
                                                                             </div>
                                                                         </div>
                                                                         <div>
@@ -350,7 +343,7 @@ function Home() {
                                                                     <div className="d-flex align-items-center">
                                                                         <div className="avatar rounded">
                                                                             <div className="avatar-content">
-                                                                                <img src="../../../app-assets/images/icons/star.svg" alt="Star svg" />
+                                                                                <img src="/styles/app-assets/images/icons/star.svg" alt="Star svg" />
                                                                             </div>
                                                                         </div>
                                                                         <div>
@@ -388,7 +381,7 @@ function Home() {
                                                                     <div className="d-flex align-items-center">
                                                                         <div className="avatar rounded">
                                                                             <div className="avatar-content">
-                                                                                <img src="../../../app-assets/images/icons/book.svg" alt="Book svg" />
+                                                                                <img src="/styles/app-assets/images/icons/book.svg" alt="Book svg" />
                                                                             </div>
                                                                         </div>
                                                                         <div>
@@ -426,7 +419,7 @@ function Home() {
                                                                     <div className="d-flex align-items-center">
                                                                         <div className="avatar rounded">
                                                                             <div className="avatar-content">
-                                                                                <img src="../../../app-assets/images/icons/rocket.svg" alt="Rocket svg" />
+                                                                                <img src="/styles/app-assets/images/icons/rocket.svg" alt="Rocket svg" />
                                                                             </div>
                                                                         </div>
                                                                         <div>
@@ -464,7 +457,7 @@ function Home() {
                                                                     <div className="d-flex align-items-center">
                                                                         <div className="avatar rounded">
                                                                             <div className="avatar-content">
-                                                                                <img src="../../../app-assets/images/icons/speaker.svg" alt="Speaker svg" />
+                                                                                <img src="/styles/app-assets/images/icons/speaker.svg" alt="Speaker svg" />
                                                                             </div>
                                                                         </div>
                                                                         <div>
@@ -509,7 +502,7 @@ function Home() {
                                     <div className="col-lg-4 col-md-6 col-12">
                                         <div className="card card-developer-meetup">
                                             <div className="meetup-img-wrapper rounded-top text-center">
-                                                <img src="../../../app-assets/images/illustration/email.svg" alt="Meeting Pic" height="170" />
+                                                <img src="/styles/app-assets/images/illustration/email.svg" alt="Meeting Pic" height="170" />
                                             </div>
                                             <div className="card-body">
                                                 <div className="meetup-header d-flex align-items-center">
@@ -546,19 +539,19 @@ function Home() {
                                                 </div>
                                                 <div className="avatar-group">
                                                     <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom" title="Billy Hopkins" className="avatar pull-up">
-                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-9.jpg" alt="Avatar" width="33" height="33" />
+                                                        <img src="/styles/app-assets/images/portrait/small/avatar-s-9.jpg" alt="Avatar" width="33" height="33" />
                                                     </div>
                                                     <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom" title="Amy Carson" className="avatar pull-up">
-                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-6.jpg" alt="Avatar" width="33" height="33" />
+                                                        <img src="/styles/app-assets/images/portrait/small/avatar-s-6.jpg" alt="Avatar" width="33" height="33" />
                                                     </div>
                                                     <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom" title="Brandon Miles" className="avatar pull-up">
-                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-8.jpg" alt="Avatar" width="33" height="33" />
+                                                        <img src="/styles/app-assets/images/portrait/small/avatar-s-8.jpg" alt="Avatar" width="33" height="33" />
                                                     </div>
                                                     <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom" title="Daisy Weber" className="avatar pull-up">
-                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-20.jpg" alt="Avatar" width="33" height="33" />
+                                                        <img src="/styles/app-assets/images/portrait/small/avatar-s-20.jpg" alt="Avatar" width="33" height="33" />
                                                     </div>
                                                     <div data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="bottom" title="Jenny Looper" className="avatar pull-up">
-                                                        <img src="../../../app-assets/images/portrait/small/avatar-s-20.jpg" alt="Avatar" width="33" height="33" />
+                                                        <img src="/styles/app-assets/images/portrait/small/avatar-s-20.jpg" alt="Avatar" width="33" height="33" />
                                                     </div>
                                                     <h6 className="align-self-center cursor-pointer ms-50 mb-0">+42</h6>
                                                 </div>
@@ -587,7 +580,7 @@ function Home() {
                                             <div className="card-body">
                                                 <div className="browser-states">
                                                     <div className="d-flex">
-                                                        <img src="../../../app-assets/images/icons/google-chrome.png" className="rounded me-1" height="30" alt="Google Chrome" />
+                                                        <img src="/styles/app-assets/images/icons/google-chrome.png" className="rounded me-1" height="30" alt="Google Chrome" />
                                                         <h6 className="align-self-center mb-0">Google Chrome</h6>
                                                     </div>
                                                     <div className="d-flex align-items-center">
@@ -597,7 +590,7 @@ function Home() {
                                                 </div>
                                                 <div className="browser-states">
                                                     <div className="d-flex">
-                                                        <img src="../../../app-assets/images/icons/mozila-firefox.png" className="rounded me-1" height="30" alt="Mozila Firefox" />
+                                                        <img src="/styles/app-assets/images/icons/mozila-firefox.png" className="rounded me-1" height="30" alt="Mozila Firefox" />
                                                         <h6 className="align-self-center mb-0">Mozila Firefox</h6>
                                                     </div>
                                                     <div className="d-flex align-items-center">
@@ -607,7 +600,7 @@ function Home() {
                                                 </div>
                                                 <div className="browser-states">
                                                     <div className="d-flex">
-                                                        <img src="../../../app-assets/images/icons/apple-safari.png" className="rounded me-1" height="30" alt="Apple Safari" />
+                                                        <img src="/styles/app-assets/images/icons/apple-safari.png" className="rounded me-1" height="30" alt="Apple Safari" />
                                                         <h6 className="align-self-center mb-0">Apple Safari</h6>
                                                     </div>
                                                     <div className="d-flex align-items-center">
@@ -617,7 +610,7 @@ function Home() {
                                                 </div>
                                                 <div className="browser-states">
                                                     <div className="d-flex">
-                                                        <img src="../../../app-assets/images/icons/internet-explorer.png" className="rounded me-1" height="30" alt="Internet Explorer" />
+                                                        <img src="/styles/app-assets/images/icons/internet-explorer.png" className="rounded me-1" height="30" alt="Internet Explorer" />
                                                         <h6 className="align-self-center mb-0">Internet Explorer</h6>
                                                     </div>
                                                     <div className="d-flex align-items-center">
@@ -627,7 +620,7 @@ function Home() {
                                                 </div>
                                                 <div className="browser-states">
                                                     <div className="d-flex">
-                                                        <img src="../../../app-assets/images/icons/opera.png" className="rounded me-1" height="30" alt="Opera Mini" />
+                                                        <img src="/styles/app-assets/images/icons/opera.png" className="rounded me-1" height="30" alt="Opera Mini" />
                                                         <h6 className="align-self-center mb-0">Opera Mini</h6>
                                                     </div>
                                                     <div className="d-flex align-items-center">
@@ -773,7 +766,6 @@ function Home() {
                 {/* END: Footer */}
 
             {/* END: Body */}
-            </div>
         </>
     )
 }
